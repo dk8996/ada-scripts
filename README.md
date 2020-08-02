@@ -2,7 +2,7 @@
 
 You will need to follow the offical documents to get the following files; `payment.addr`, `payment.skey`, `stake.skey`, `cold.skey`, `pool-registration.cert`, `delegation.cert`. If you already have them you can skip to registering your pool section. Otherwise follow the following instructions.
 
-## Create keys and addresses
+#### Create keys and addresses
 [Creating keys and addresses](https://docs.cardano.org/projects/cardano-node/en/latest/stake-pool-operations/keys_and_addresses.html)
 
 
