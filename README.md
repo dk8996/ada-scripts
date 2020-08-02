@@ -1,11 +1,12 @@
 # ada-scripts
 
-You will need to follow the offical documents to get the following files `payment.addr`, `payment.skey`, `stake.skey`, `cold.skey`, `pool-registration.cert`, `delegation.cert`.
+You will need to follow the offical documents to get the following files; `payment.addr`, `payment.skey`, `stake.skey`, `cold.skey`, `pool-registration.cert`, `delegation.cert`. If you already have them you can skip to registering your pool section.
 
 1 Start here to create the stake pool keys
 [Creating keys and addresses](https://docs.cardano.org/projects/cardano-node/en/latest/stake-pool-operations/keys_and_addresses.html)
 
 
+## registering your pool 
 All you have to do is the following command 
 
 `./pool-reg-crt.sh <payment.addr> <payment.skey> <stake.skey> <cold.skey> <pool-registration.cert> <delegation.cert>`
